@@ -1,0 +1,26 @@
+.hero-section {
+
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menu-item {
+    text-align: center;
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+.col-md-4 menu-item{
+display: flex;
+border: 4px coral;
+}
+
+#menu {
+    margin-top: 30px;
+}
