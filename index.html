@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .menu-item {
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+        }
+       .col-md-4 menu-item{
+        display: flex;
+        border: 4px coral;
+       }
+        
+        #menu {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="container"></div>
+    <a class="navbar-brand" href="#">Silver Restaurent</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="hero-section">
+    <div class="text-center">
+        <h1>Welcome to our Restaurent</h1>
+        <a href="#menu" class="btn btn-primary">view menu</a>
+    </div>
+</div>
+
+<section id="menu" class="container my-5">
+    <div class="row">
+        <div class="col-md-4 menu-item">
+            <img src="/imgs/dish1.png" alt="Ojja royal">
+            <h4>Ojja royal</h4>
+            <p>Ojja is a great classic of Tunisian cuisine, a dish made with eggs, tomatoes and peppers, with many variations: meatballs, merguez, escalope, seafood...
+            </p>
+            <p>45DT</p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="/imgs/dish2.jpg" alt="Ricotta pizza">
+            <h4>Riccotta pizza</h4>
+            <p>This incredible homemade ricotta pizza is creamy and cheesy, with three cheeses, artichokes, and fresh basil. A favorite!</p>
+            <p>12DT</p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="/imgs/dish3.jpg" alt="Fried Garlic Chicken Wings">
+            <h4>Fried Garlic Chicken Wings</h4>
+            <p>A little Mediterranean touch, perfect for snacking as an aperitif. Delicious!</p>
+            <p>20</p>
+
+        </div>
+    </div>
+</section>
+<section class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/imgs/myplace.jpg" alt="our place">
+        </div>
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>We offer a range of delicious dishes made with fresh ingredients and passion. Our restaurant provides a warm and welcoming atmosphere for families and friends.</p>
+
+        </div>
+    </div>
+</section>
+<section class="container my-5">
+    <h2>Contact Us</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control"  id="message" rows="3" required></textarea>
+        </div>
+    </form>
+</section>
+
+<footer class="bg-ligh text-center py-3"></footer>
+<p>&copy; 2025 Restaurant Name | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
